@@ -14,14 +14,14 @@
   <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-8">
-        <nav class="navbar bg-body-tertiary">
-              <a class="navbar-brand" href="#">
+            <div class="col-12">
+        <nav class="navbar bg-body-tertiary mx-5">
+              <p class="navbar-brand">
                 <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
                 Instagram
-              </a>
-            </div>
-            <div class="col-2">
+              </p>
+
+              <div class="justify-content-end me-5">
                 <button type="button" class="btn btn-primary btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new post</button>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -49,8 +49,8 @@
                       </div>
                     </div>
                   </div>
-            </div>
-            <div class="col-2">
+
+
                 <div class="btn-group">
                      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                        <i class="fas fa-cog" style="color: #ffffff;"></i>
@@ -62,9 +62,14 @@
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
                             </ul>
-                        </div>
+
             </div>
-            </div>
+          </div>
+
+          </nav>
+          </div>
+          </div>
+
         <div class="row">
             <div class="column-12">
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist" >
@@ -78,39 +83,57 @@
                   <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
                       <div class="row">
-                        
-                        
-                        
-                        
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/554553/lg_uulrzu_3707c155b422bedc3fa70728a35065b4991e20cc.jpg" class="img-fluid" alt="Barco">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/1672033/x0ltso_0a7ce4cadaaba8eb5193334a28ad4ad3d2853ca0.jpg" class="img-fluid" alt="Calle">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/279567/dlxgvj_4514985d37140fe5bbff49969f8201df5edbbe15.jpg" class="img-fluid object-fit-scale" alt="Árbol">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/756915/5bqwa8_dd1ced9b51526ebd81a0c156593023f1dbf00f47.jpg" class="img-fluid" alt="Niña">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/925429/lg_magudu_e883f579717d7c0f491dd17a1b3a67bcfcf08f90.jpg" class="img-fluid" alt="Coche">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/2008574/wajiaq_64c848f3b7f437651939befbc084c4bc2e065af5.jpg" class="img-fluid object-fit-scale" alt="Té">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/1952363/hxipwi_3bfb9423a8b843d66377a0ca73ff801abeb4f276.jpg" class="img-fluid" alt="Niña">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/1268461/lg_at9oww_514503c7380ec83e8ee473301883b0bb24b6e263.jpg" class="img-fluid" alt="Coche">
-                        </div>
-                        <div class="col-4 pt-3 square d-flex align-items-center">
-                          <img src="https://d1joui61864gj3.cloudfront.net/814175/lg_z0vbsh_1d57b7bd76afc27c0e93f9624a036a495d45a465.jpg" class="img-fluid object-fit-scale" alt="Paisaje">
+
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/1952363/hxipwi_3bfb9423a8b843d66377a0ca73ff801abeb4f276.jpg" alt="Card image cap">
                       </div>
                       </div>
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/935168/lg_186bg8_72b762182c48420e60a17042067d3bd91c921fb9.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/1001304/orvxhr_34beedf72a4ddd968c557593d61c56b9c8ae5376.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/1732364/lg_a1olj0_e53ce9d8f807159b95e8cb192ba8de08820407f7.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/882668/gfhsb8_57600579b21a853498d776c567dae9e8cdf3dc90.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/1862191/pebl34_7641e8833d3371f5d7152ae71dc45c2df9713451.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/510016/lg_jqq3yt_8be44842a8d9a56984806e0dea811c0977588366.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/1887430/sllz1x_da5187867ac491f2875648e4f4283f5b6d81573d.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+                      <div class="col-4 square d-flex align-items-center">
+                        <div class="card img-fluid ratio ratio-4x3 my-2">
+                          <img class="card-img" src="https://d1joui61864gj3.cloudfront.net/1562651/ctbzod_c17c3200d10b5c22bb78b640d769be453c12ef48.jpg" alt="Card image cap">
+                      </div>
+                      </div>
+
                     </div>
+                    </div>
+                    
                     <div class="tab-pane fade" id="feed" role="tabpanel" aria-labelledby="feed-tab">
                       <div class="row">
                         <div class="col-12 mt-4 d-flex justify-content-center align-items-center">
@@ -174,7 +197,7 @@
             </div>
         </div>    
         </div>
-          </nav>
+
 
 
     </div>
